@@ -1,12 +1,12 @@
 {
-  "name": "eleventy-excellent",
-  "version": "1.5.0",
-  "description": "Eleventy starter based on the workflow suggested by Andy Bell's buildexcellentwebsit.es.",
-  "author": "Lene Saile",
+  "name": "teachers-for-all",
+  "version": "0.1.0",
+  "description": "Website for the Teachers for All non-profit organization.",
+  "author": "Lene Saile/Mike Mathew",
   "license": "ISC",
   "main": ".eleventy.js",
   "engines": {
-    "node": ">=16.x.x"
+    "node": ">=18.x.x"
   },
   "scripts": {
     "clean": "rimraf dist",
@@ -18,7 +18,7 @@
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/madrilene/eleventy-excellent.git"
+    "url": "https://github.com/m2mathew/teachers-for-all.git"
   },
   "dependencies": {
     "@11ty/eleventy": "^2.0.0",
