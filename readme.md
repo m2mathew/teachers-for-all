@@ -57,7 +57,7 @@ npm install
 Starts watch tasks to compile when changes detected
 
 ```
-npm start
+npm run dev
 ```
 
 ### Creating a production build
