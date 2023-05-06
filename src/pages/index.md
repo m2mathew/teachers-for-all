@@ -1,17 +1,14 @@
 ---
 permalink: /index.html
-title: ' Eleventy Excellent'
-description: 'Eleventy starter using modern CSS, fluid type, fluid spacing, flexible layout and progressive enhancement.'
+title: 'Teachers For All'
+description: 'Teachers For All is a non-profit organization that connects fine arts students with scholarships for summer camps.'
 layout: 'home'
-blog:
-  title: 'Blog'
-  intro: "I'm showing the last 4 blog posts, but there might be more!"
 ---
 
-## An Eleventy starter
+### It's all about the kids
 
-This (opiniated) [Eleventy](https://www.11ty.dev/) starter is based on [Andy Bell's](https://mastodon.social/@andy@bell.bz) talk 'Be the browser’s mentor, not its micromanager' and it's companion website buildexcellentwebsit.es.
+**Teachers For All** exists to help connect fine arts students in the Austin, Texas area with scholarship opportunities for fine arts camps.
 
-In his words, it's about hinting the browser rather than micromanaging it, using progressive enhancement, CSS layout, fluid type & spacing, as well as modern CSS features.
+Many fine arts students would like to attend summer camps, but some students are unable to afford the cost of the camps. **Teachers For All**, founded by Austin ISD Fine Arts Supervisor César De León, helps connect students with scholarships for fine arts camps. Funds for scholarhips are raised through donations and fundraising events.
 
-This way we can shape frontends that look good to everyone, regardless of device, connection speed or context.
+<button>Apply Now!</button>
