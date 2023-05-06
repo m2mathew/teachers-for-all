@@ -7,8 +7,6 @@ description: We respect the EU General Data Protection Regulation (GDPR). This p
 layout: page
 ---
 
-Edit your details in `_data/meta.js`
-
 We respect the EU General Data Protection Regulation (GDPR) and this policy document explains how we collect and handle any information you provide to Teachers For All.
 
 **What background data is collected?**
@@ -24,13 +22,13 @@ Very secure, as this website does not collect any information.
 This website transmits itself using HTTPS, encrypting all data between the browser and the server. Your network provider can still see that you are downloading assets from this site, but not its content. This also protects you from third parties intercepting data, for example, while browsing on public WiFi, or from network providers injecting advertisements on this site. All relevant response HTTP headers are set for your protection and the Content Security Policy is adjusted to this websites requirements.
 
 **Data controller**
-{{ meta.address.firma }}
+{{ meta.address.org }}
 {{ meta.address.street }}
-{{ meta.address.zip }}, {{ meta.address.city }}
+{{ meta.address.city }}, {{ meta.address.state }} {{ meta.address.zip }}
 Tel: <a href="tel:{{ meta.address.mobileCall }}">{{ meta.address.mobileDisplay }}</a>
-Mail: <a href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>
+EMail: <a href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>
 
-If you have any questions or doubts, please contact me: <a href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>
+If you have any questions or doubts, please contact us.
 
 **Changes to the policy**
 If we change the content of this policy, those changes will be effective at the time we post them here.
