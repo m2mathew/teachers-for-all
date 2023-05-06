@@ -2,14 +2,21 @@
 layout: base
 ---
 
-<header class="section spot-color-primary">
+{# <header class="section spot-color-primary"> #}
+<header class="section">
   <div class="section__inner">
-    <div class="wrapper flow region">
-      <h1 class="text-center">{{ title }}</h1>
-    </div>
+    <h1 class="title">
+      <span>Teachers</span>
+      <span>Teachers</span>
+    </h1>
+    <h2 class="subtitle">For All</h2>
+    {# <div class="wrapper flow region">
+      <h1 class="text-center hero-text">{{ title }}</h1>
+    </div> #}
   </div>
-  {% include 'svg/divider-waves.svg' %}
+  {# {% include 'svg/divider-waves.svg' %} #}
 </header>
+
 
 <article class="region">
   <div class="wrapper flow prose">
@@ -17,7 +24,7 @@ layout: base
   </div>
 </article>
 
-<article class="region" style="--region-space-top: var(--space-s)">
+{# <article class="region" style="--region-space-top: var(--space-s)">
   <div class="wrapper flow prose">
     <h2>{{ blog.title }}</h2>
     <!-- blog intro text is optional. -->
@@ -40,4 +47,4 @@ layout: base
 
     {% endfor %}
   </ul>
-</article>
+</article> #}
