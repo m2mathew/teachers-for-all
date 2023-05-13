@@ -23,10 +23,8 @@ This website transmits itself using HTTPS, encrypting all data between the brows
 
 **Data controller**
 {{ meta.address.org }}
-{{ meta.address.street }}
 {{ meta.address.city }}, {{ meta.address.state }} {{ meta.address.zip }}
-Tel: <a href="tel:{{ meta.address.mobileCall }}">{{ meta.address.mobileDisplay }}</a>
-EMail: <a href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>
+Email: <a href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>
 
 If you have any questions or doubts, please contact us.
 

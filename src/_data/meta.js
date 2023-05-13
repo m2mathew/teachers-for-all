@@ -32,13 +32,13 @@ module.exports = {
   address: {
     // edit all presets or leave empty. They are being used in the pages for privacy.md and imprint.md
     org: 'Teachers For All',
-    street: '123 Main St.',
+    street: '',
     city: 'Austin',
     state: 'Texas',
-    zip: '12345',
+    zip: '',
     mobileDisplay: '',
     mobileCall: '',
-    email: '',
+    email: 'CesarDeLeon@teachersforall.com',
     cif: ''
   },
   menu: {
