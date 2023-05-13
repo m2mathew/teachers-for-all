@@ -28,23 +28,3 @@
     url(/assets/fonts/redhat/red-hat-display-v7-latin-900.woff2) format('woff2'),
     url(/assets/fonts/redhat/red-hat-display-v7-latin-900.woff) format('woff');
 }
-
-@font-face {
-  font-family: 'RobotoMono';
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-  src: local(''),
-    url(/assets/fonts/robotomono/robotomono-variablefont_wght-webfont.woff2)
-      format('woff2'),
-    url(/assets/fonts/robotomono/robotomono-variablefont_wght-webfont.woff) format('woff');
-}
-
-/* @font-face {
-	font-family: 'Press_Start_2P';
-  font-weight: normal;
-  font-style: normal;
-	font-display: swap;
-	src: local(''),
-    url(/assets/fonts/Press_Start_2P/PressStart2P-Regular.ttf) format('truetype');
-} */
