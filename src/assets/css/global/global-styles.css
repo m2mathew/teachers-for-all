@@ -154,7 +154,7 @@ main:focus {
   outline: none;
 }
 
-article [href^='http']:not([href*='eleventy-excellent.netlify.app'])::after {
+article [href^='http']:not([href*='teachers-for-all.netlify.app'])::after {
   display: inline-block;
   width: 1em;
   height: 1em;
