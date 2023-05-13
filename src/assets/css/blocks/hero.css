@@ -1,8 +1,8 @@
-@media (min-width: 48em) {
+/* @media (min-width: 48em) {
   .title {
     font-size: 6em;
   }
-}
+} */
 
 /* .hero-text { */
   /* font-family: 'Press_Start_2P'; */
@@ -10,15 +10,15 @@
   /* text-shadow: 0 0 20px #fff, 0 0 10px #fff, 0 0 50px #ff0fad, 0 0 50px #ff0fad, 0 0 40px #ff0fad, 0 0 100px #ff0fad, 0 0 75px #ff0fad; */
 /* } */
 
-.title {
+/* .title { */
   /* font-size: var(--size-step-5); */
-  position: relative;
-  font-family: 'Exo';
+  /* position: relative;
+  font-family: 'Exo'; */
   /* font-size: 6em; */
-  margin: 0;
+  /* margin: 0;
   transform: skew(-15deg);
   letter-spacing: 0.03em;
-}
+} */
 
 /* .title::after {
   --medium-white: rgba(white, 0.3);
@@ -38,32 +38,35 @@
   background-repeat: no-repeat;
 } */
 
-.title span:first-child {
+/* .title span:first-child {
   display: block;
-  text-shadow: 0 0 0.1em #8ba2d0, 0 0 0.2em black,  0 0 5em #165ff3;
-  -webkit-text-stroke: 0.06em rgba(black, 0.5);
-}
+  text-shadow: 0 0 0.1em #8ba2d0, 0 0 0.2em black,  0 0 5em #165ff3; */
+  /* -webkit-text-stroke: 0.06em rgba(black, 0.5); */
+/* } */
 
-.title span:last-child {
+/* .title span:last-child {
   position: absolute;
   left: 0;
   top: 0;
   background-image: linear-gradient(#032d50 30%, #00a1ef 35%, white 50%, #20125f 50%, #8313e7 57%, #ff61af 80%);
   -webkit-text-stroke: 0.01em #94a0b9;
   /* background-image: linear-gradient(#032d50 25%, #00a1ef 35%, white 50%, #20125f 50%, #8313e7 55%, #ff61af 75%);
-  -webkit-text-stroke: 0.01em #94a0b9; */
+  -webkit-text-stroke: 0.01em #94a0b9;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+} */
 
-.subtitle {
+/* .subtitle {
   /* font-size: var(--size-step-4); */
-  font-family: 'Mr Dafoe';
+  /* font-family: 'Mr Dafoe';
   margin: 0;
-  font-size: 5.5em;
-  margin-top: -0.6em;
-  color: white;
+  font-size: 4.5em; */
+  /* margin-top: -0.6em; */
+  /*color: #eee;
+  position: relative;
   text-shadow: 0 0 0.05em #111, 0 0 0.2em #fe05e1, 0 0 0.3em #fe05e1;
   transform: rotate(-7deg);
-}
+  text-align: center;
+  top: -120px;
+} */

@@ -4,24 +4,12 @@
   Low-specificity, global styles that apply to the whole
   project: https://cube.fyi/css.html
 */
-body, html {
+/* body, html {
   width: 100%;
   height: 100%;
-  margin: 0;
+  margin: 0; */
   /* overflow: hidden; */
-}
-/*
-body {
-  --body-gradient: rgba(#7600bf, 0.5);
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background: radial-gradient(var(----body-gradient) 0%, transparent 70%), linear-gradient(#0b161e 40%, #202076 70%);
-  perspective: 700px;
-  font-size: clamp(10px, 2vw, 20px);
-} */
+/* } */
 
 body {
   color: var(--color-dark);
@@ -60,50 +48,12 @@ blockquote:not([class]) {
   max-width: 50ch;
 }
 
-/* h1,
+h1,
 h2,
 h3 {
   max-width: 20ch;
-} */
+}
 
-
-/* .lines {
-  position: fixed;
-  width: 100vw;
-  height: 4em;
-  background: linear-gradient(rgba(var(--color-lines), 0.2) 20%, var(--color-lines) 40%, var(--color-lines) 60%, rgba(var(--color-lines), 0.2) 80%);
-  background-size: 1px 0.5em;
-  box-shadow: 0 0 1em rgba(var(--color-lines), 0.4);
-  transform: translateY(-1em);
-  left: 0;
-} */
-
-/* .grid-lines {
-  background:
-    linear-gradient(
-      transparent 65%,
-      var(--color-glow) 75%,
-      #7d41e6 80%,
-      var(--color-glow) 85%,
-      transparent 95%
-    ),
-    linear-gradient(
-      90deg,
-      transparent 65%,
-      var(--color-glow) 75%,
-      #7d41e6 80%,
-      var(--color-glow) 85%,
-      transparent 95%
-    );
-  background-size: 30px 30px;
-  width: 200vw;
-  height: 300vh;
-  position: absolute;
-  bottom: -120vh;
-  transform: rotateX(-100deg);
-  /* mask-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0) 80%); */
-  /* -webkit-mask-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0) 80%); */
-/* } */
 
 blockquote {
   border-inline-start: 0.8rem solid var(--color-primary);

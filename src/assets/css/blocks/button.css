@@ -1,1 +1,11 @@
 /* A blank block because there is *always* a button */
+.cta-button {
+  border-radius: 8px;
+  padding: 4px 8px;
+  box-shadow: 0 0 0.05em #111, 0 0 0.2em #fe05e1, 0 0 0.3em #fe05e1;
+}
+
+.cta-button:focus, .cta-button:hover {
+  box-shadow: 0 0 0.05em #111, 0 0 0.4em #fe05e1, 0 0 0.5em #fe05e1;
+  cursor: pointer;
+}
