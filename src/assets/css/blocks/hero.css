@@ -10,12 +10,14 @@
 .hero h1 {
   max-width: unset;
   color: var(--color-light);
+  -webkit-text-stroke: 3px var(--color-primary);
+  -webkit-text-fill-color: var(--color-light);
 }
 
 .hero h2 {
   max-width: unset;
   font-size: var(--size-step-3);
-  color: var(--color-gray);
+  color: var(--color-dark);
 }
 
 .hero-button-container.hero-button-container {
