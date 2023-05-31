@@ -10,7 +10,7 @@
 .hero h1 {
   max-width: unset;
   color: var(--color-light);
-  -webkit-text-stroke: 3px var(--color-primary);
+  -webkit-text-stroke: 3px var(--color-dark);
   -webkit-text-fill-color: var(--color-light);
 }
 
@@ -21,10 +21,8 @@
 }
 
 .hero-button-container.hero-button-container {
-  background-color: var(--color-primary);
+  background-color: var(--color-purple);
 
-  /* force colors and noise to collide */
-  filter: var(--noise-filter-3);
   /* fit noise image to element */
   background-size: cover;
   margin-top: 0;

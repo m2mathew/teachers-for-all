@@ -31,6 +31,10 @@
       "value": "#D8E2F4"
     },
     {
+      "name": "Purple",
+      "value": "#3F088B"
+    },
+    {
       "name": "Glow",
       "value": "rgba(#2e26ff, 0.4)"
     }

@@ -2,7 +2,8 @@
   display: block;
   height: 3.5em;
   width: 100%;
-  fill: var(--spot-color, var(--color-primary));
+  fill: var(--spot-color, var(--color-purple));
+  transform: translateY(-1px);
 }
 
 .separator.separator {
@@ -11,8 +12,4 @@
 
 .separator-flip {
   transform: rotate(180deg) translateY(-1px);
-}
-
-.separator-flip.separator-flip {
-  margin-top: 16px;
 }
