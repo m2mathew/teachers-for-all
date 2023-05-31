@@ -4,24 +4,30 @@ layout: base
 
 <header class="section spot-color-primary">
   <div class="section__inner">
-    <div class="flow region hero">
+    <div class="flow hero">
+      {% include 'svg/divider-waves.svg' %}
+
       <h1 class="text-center">{{ title }}</h1>
 
       <h2 class="text-center">
         It&apos;s all about the kids
       </h2>
+      <div class="text-center description-block">
+        <p>
+          <strong>Teachers For All</strong> exists to help connect fine arts students in the Austin, Texas area with scholarship opportunities for fine arts camps.
+        </p>
+      </div>
+
+      {% include 'svg/divider-waves-flip.svg' %}
     </div>
   </div>
 </header>
 
-
-{% include 'svg/divider-waves-flip.svg' %}
-
-<div class="region text-center hero-button-container">
+{# <div class="region text-center hero-button-container">
   <button class="cta-button">Apply Now!</button>
 </div>
 
-{% include 'svg/divider-waves.svg' %}
+{% include 'svg/divider-waves.svg' %} #}
 
 <article class="region">
   <div class="wrapper flow prose">

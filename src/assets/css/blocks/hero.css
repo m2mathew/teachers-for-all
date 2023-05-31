@@ -5,19 +5,23 @@
   filter: var(--noise-filter-3);
   /* fit noise image to element */
   background-size: cover;
+  height: 100vh;
 }
 
 .hero h1 {
   max-width: unset;
+  font-size: var(--size-step-6);
   color: var(--color-light);
-  -webkit-text-stroke: 3px var(--color-dark);
+  -webkit-text-stroke: 5px var(--color-dark);
   -webkit-text-fill-color: var(--color-light);
+  margin-top: 16px;
 }
 
 .hero h2 {
   max-width: unset;
-  font-size: var(--size-step-3);
+  font-size: var(--size-step-4);
   color: var(--color-dark);
+  margin-bottom: 64px;
 }
 
 .hero-button-container.hero-button-container {
@@ -26,4 +30,17 @@
   /* fit noise image to element */
   background-size: cover;
   margin-top: 0;
+}
+
+.description-block {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.description-block > p {
+  font-size: var(--size-step-2);
+  text-align: center;
+  max-width: 80%;
+  width: 100%;
 }
