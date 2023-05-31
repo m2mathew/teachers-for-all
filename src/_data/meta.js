@@ -13,7 +13,7 @@ module.exports = {
   themeColor: '#DD4462', //  Manifest: defines the default theme color for the application
   themeBgColor: '#F3F3F3', // Manifest: defines a placeholder background color for the application page to display before its stylesheet is loaded
   meta_data: {
-    opengraph_default: '/assets/images/opengraph-default.jpg', // fallback/default meta image
+    opengraph_default: '/assets/images/opengraph-default.png', // fallback/default meta image
     opengraph_default_alt:
       'Visible content: Teachers For All is a non-profit organization that connects fine arts students with scholarships for summer camps.', // alt text for default meta image
     // twitterSite: '', // i.e. @site - twitter profile of the site
