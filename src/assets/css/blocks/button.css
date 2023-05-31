@@ -1,11 +1,16 @@
-/* A blank block because there is *always* a button */
 .cta-button {
   border-radius: 8px;
-  padding: 4px 8px;
+  font-size: var(--size-step-2);
+  font-weight: 600;
+  color: var(--color-light);
+  padding: 12px 24px;
   box-shadow: 0 0 0.05em #111, 0 0 0.2em #fe05e1, 0 0 0.3em #fe05e1;
+  background-image: var(--gradient-17), var(--noise-3);
 }
 
 .cta-button:focus, .cta-button:hover {
   box-shadow: 0 0 0.05em #111, 0 0 0.4em #fe05e1, 0 0 0.5em #fe05e1;
+  color: var(--color-light-glare);
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }

@@ -2,5 +2,17 @@
   display: block;
   height: 3.5em;
   width: 100%;
-  fill: var(--spot-color, var(--color-dark));
+  fill: var(--spot-color, var(--color-primary));
+}
+
+.separator.separator {
+  margin-top: 0;
+}
+
+.separator-flip {
+  transform: rotate(180deg) translateY(-1px);
+}
+
+.separator-flip.separator-flip {
+  margin-top: 16px;
 }

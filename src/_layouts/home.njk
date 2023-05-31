@@ -4,42 +4,27 @@ layout: base
 
 <header class="section spot-color-primary">
   <div class="section__inner">
-    <div class="wrapper flow region">
+    <div class="flow region hero">
       <h1 class="text-center">{{ title }}</h1>
+
+      <h2 class="text-center">
+        It&apos;s all about the kids
+      </h2>
     </div>
   </div>
-  {% include 'svg/divider-pixels.svg' %}
 </header>
 
+
+{% include 'svg/divider-waves-flip.svg' %}
+
+<div class="region text-center hero-button-container">
+  <button class="cta-button">Apply Now!</button>
+</div>
+
+{% include 'svg/divider-waves.svg' %}
 
 <article class="region">
   <div class="wrapper flow prose">
     {{ content | safe }}
-    <button class="cta-button">Apply Now!</button>
   </div>
 </article>
-
-{# <article class="region" style="--region-space-top: var(--space-s)">
-  <div class="wrapper flow prose">
-    <h2>{{ blog.title }}</h2>
-    <!-- blog intro text is optional. -->
-    {% if blog.intro %}
-    <p>{{ blog.intro }}</p>
-    {% endif %}
-  </div>
-  <!-- TODO: duplicate of partials/blog.njk -->
-
-  <ul class="wrapper grid mt-l-xl" role="list" data-rows="masonry" data-layout="50-50">
-    {% set postslist = collections.posts %} {% for post in postslist.slice(0, 4) %}
-
-    <li class="card flow overflow-hidden">
-      <h3>
-        <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-      </h3>
-      {% set definedDate = post.date %} {% include "partials/date.njk" %}
-      <p>{{ post.data.description }}</p>
-    </li>
-
-    {% endfor %}
-  </ul>
-</article> #}
