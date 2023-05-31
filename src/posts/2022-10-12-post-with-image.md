@@ -35,7 +35,7 @@ Add your own `sizes` attribute (note how I set an empty string for the caption):
 
 ### Example image with a caption
 
-{% imagePlaceholder "./src/assets/images/opengraph-default.jpg", "The preview for social media", "An interesting caption text." %}
+{% imagePlaceholder "./src/assets/images/opengraph-default.png", "The preview for social media", "An interesting caption text." %}
 
 ## CSS
 
